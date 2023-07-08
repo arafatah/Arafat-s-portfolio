@@ -78,6 +78,11 @@ nav a {
     margin-top: 0;
 }
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 .about {
     padding: 130px;
     border-radius: 10px;
