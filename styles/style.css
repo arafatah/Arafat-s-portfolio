@@ -78,7 +78,7 @@ nav a {
     margin-top: 0;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0px auto;
 }
@@ -103,4 +103,40 @@ main{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+    
+}
+.info-title{color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+
+
+} 
+.info-description{
+    font-weight: bold;
+    margin-top: 1%;
+
+}
+#What-I-Do{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.skill{
+    box-shadow: #474747;
 }
