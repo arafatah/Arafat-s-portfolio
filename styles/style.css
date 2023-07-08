@@ -46,8 +46,34 @@ nav a {
 
 .header{
     background-color: #fff8f3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 550px;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+}
+
+.main-image{
+    width: 500px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+    color: #474747;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-dec{
+    margin-top: 0;
 }
