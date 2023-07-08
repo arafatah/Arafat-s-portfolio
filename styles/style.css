@@ -44,7 +44,7 @@ nav a {
     color: #474747;
 }
 
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
@@ -57,23 +57,45 @@ nav a {
     display: flex;
 }
 
-.main-image{
+.main-image {
     width: 500px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     margin-bottom: 0;
     color: #474747;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.banner-dec{
+.banner-dec {
     margin-top: 0;
+}
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
